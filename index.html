@@ -181,25 +181,28 @@
                     <h1 class="text-3xl text-center mb-5">Budget</h1>
                     <div class="flex justify-between py-2">
                         <h5 class="text-center">Per Player :</h5>
-                        <input type="text" name="number" class="w-6/12 bg-black border border-gray-100">
+                        <input id="per-player" type="text" name="number" class="w-6/12 bg-black border border-gray-100"
+                            placeholder="0">
                     </div>
-                    <button type="button"
+                    <button id="btn-calculate" type="button"
                         class="text-white bg-blue-700 hover:bg-blue-800 font-medium text-sm w-full py-3 my-5 mx-auto">Calculate
                     </button>
-                    <h1 class="text-xl text-center mb-5">Player Expenses : <span>5000</span></h1>
+                    <h1 class="text-xl text-center mb-5">Player Expenses : <span id="player-cost">00</span></h1>
                     <div class="flex justify-between py-2">
                         <h5 class="text-center">Manager :</h5>
-                        <input type="text" name="number" class="w-6/12 bg-black border border-gray-100">
+                        <input id="manager" type="text" name="number" class="w-6/12 bg-black border border-gray-100"
+                            placeholder="0">
                     </div>
                     <div class="flex justify-between py-2">
                         <h5 class="text-center">Couch :</h5>
-                        <input type="text" name="number" class="w-6/12 bg-black border border-gray-100">
+                        <input id="couch" type="text" name="number" class="w-6/12 bg-black border border-gray-100"
+                            placeholder="0">
                     </div>
-                    <button type="button"
+                    <button id="btn-total" type="button"
                         class="text-white bg-blue-700 hover:bg-blue-800 font-medium text-sm w-full py-3 my-5 mx-auto">Calculate
                         Total
                     </button>
-                    <h1 class="text-xl text-center mb-5">Total : <span class="text-orange-500">5000</span></h1>
+                    <h1 class="text-xl text-center mb-5">Total : <span id="total" class="text-orange-500">00</span></h1>
 
 
                 </div>
